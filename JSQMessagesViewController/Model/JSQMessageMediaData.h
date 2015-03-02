@@ -38,6 +38,8 @@
 
 @required
 
+@property(nonatomic, strong) NSString *mediaURL;
+
 /**
  *  @return An initialized `UIView` object that represents the data for this media object.
  *
